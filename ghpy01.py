@@ -3,5 +3,5 @@ import os
 
 a = 'fuck_u'
 print(a)
-b = 'cnm'
+b = 'cnm_b'
 print(b)
