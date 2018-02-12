@@ -1,7 +1,7 @@
 import sys
 import os
 
-a = 'fucku'
+a = 'fuck_u'
 print(a)
-b = 'cnmb'
+b = 'cnm'
 print(b)
