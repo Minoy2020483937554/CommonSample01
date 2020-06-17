@@ -19,7 +19,7 @@
       |\_sign     |String |Yes  |"abcd1234"   ||
 
     + 请求返回：  
-        ```
+        ```javascript
         {
           "code"   : 200,#int
           "msg"    : "successed",#string
