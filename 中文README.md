@@ -71,7 +71,7 @@ _0基础一二三步接入区\_块\_链主网_
       |app_id     |String |Yes  |"Test_APP"   |应用名 |
       |order_id   |String |Yes  |"abcd1234"   |订单号 |
       |type       |String |Yes  |"full"       |类型   |
-      |from       |String |Yes  |"...from..." |发送者 |
+      |from       |String |No   |"...from..." |发送者 |
       |to         |String |Yes  |"...to..."   |接收者 |
       |amount     |String |Yes  |"100.0"      |数额   |
       |\_sign     |String |Yes  |"abcd1234"   |签名   |
