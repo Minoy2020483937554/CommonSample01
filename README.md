@@ -1,7 +1,7 @@
 \_\_\_\_服务 Server\_\_\_\_
 ====
 
-### 1. 获取地址
+1. ### 获取地址
 
 + **请求方法：**   POST  
 + **路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
@@ -20,13 +20,14 @@
   |\_sign     |String |Yes  |"abcd1234"   |
 
 + 请求返回：  
+
   {
     "code":200,
     "result":
       {"address":"...ADDRESS..."}
   }
 
-### 2. 转账
+2. ### 转账
 ----
 + **请求方法：**   POST  
 + **路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
