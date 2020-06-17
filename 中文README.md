@@ -18,9 +18,10 @@ _0基础一二三步接入区\_块\_链主网_
     + 请求返回：  
         ```javascript
         {
-          "code"   : 200,#int
-          "msg"    : "successed",#string
-          "result" :
+          "code" : 200,#int
+          "msg"  : "successed",#string
+          ”err"  : "null",#string
+          "data" :
             {
               "address":"...ADDRESS...",#string
             },
@@ -47,12 +48,10 @@ _0基础一二三步接入区\_块\_链主网_
     + 请求返回：  
         ```
         {
-          "code"   : 200,#int
-          "msg"    : "successed",#string
-          "result" :
-            {
-              "address":"...ADDRESS...",#string
-            },
+          "code" : 200,#int
+          "msg"  : "successed",#string
+          ”err"  : "null",#string
+          "data" : "null",#string
         }
         ```
 
@@ -80,11 +79,9 @@ _0基础一二三步接入区\_块\_链主网_
     + 请求返回：  
         ```
         {
-          "code"   : 200,#int
-          "msg"    : "successed",#string
-          "result" :
-            {
-              "address":"...ADDRESS...",#string
-            },
+          "code" : 200,#int
+          "msg"  : "successed",#string
+          ”err"  : "null",#string
+          "data" : "null",#string
         }
         ```
