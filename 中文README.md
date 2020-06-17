@@ -9,11 +9,11 @@ _0基础一二三步接入区\_块\_链主网_
     + **参数列表：**  
       |名称  |类型  |必填| 样例|描述|
       |:---- |:---:|:--:| --:| --|
-      |timestamp  |String |Yes  |"1234554321" |实时时间戳  |
-      |user_id    |String |Yes  |"2020019428" |用户名      |
-      |block      |String |Yes  |"Bitcoin"    |区块链类型  |
-      |type       |String |Yes  |"full"       |类型       |
-      |\_sign     |String |Yes  |"abcd1234"   |签名       |
+      |timestamp  |String |Yes  |"1234554321" |时间戳  |
+      |user_id    |String |Yes  |"2020019428" |用户名  |
+      |block      |String |Yes  |"Bitcoin"    |主链名  |
+      |type       |String |Yes  |"full"       |类型    |
+      |\_sign     |String |Yes  |"abcd1234"   |签名    |
 
     + 请求返回：  
         ```javascript
@@ -33,16 +33,16 @@ _0基础一二三步接入区\_块\_链主网_
     + **参数列表：**  
       |名称  |类型  |必填| 样例|描述|
       |:---- |:---:|:--:| --:| --:|
-      |timestamp  |String |Yes  |"1234554321" |实时时间戳  |
-      |user_id    |String |Yes  |"2020019428" |用户ID     |
-      |block      |String |Yes  |"Bitcoin"    |区块链类型  |
-      |coin_id    |String |Yes  |"BTC"        |货币ID     |
-      |order_id   |String |Yes  |"abcd1234"   |订单号     |
-      |type       |String |Yes  |"full"       |类型       |
-      |from       |String |Yes  |"...from..." |发送者     |
-      |to         |String |Yes  |"...to..."   |接收者     |
-      |amount     |String |Yes  |"100.0"      |数额       |
-      |\_sign     |String |Yes  |"abcd1234"   |签名       |
+      |timestamp  |String |Yes  |"1234554321" |时间戳  |
+      |user_id    |String |Yes  |"2020019428" |用户名  |
+      |block      |String |Yes  |"Bitcoin"    |主链名  |
+      |coin_id    |String |Yes  |"BTC"        |货币名  |
+      |order_id   |String |Yes  |"abcd1234"   |订单号  |
+      |type       |String |Yes  |"full"       |类型    |
+      |from       |String |Yes  |"...from..." |发送者  |
+      |to         |String |Yes  |"...to..."   |接收者  |
+      |amount     |String |Yes  |"100.0"      |数额    |
+      |\_sign     |String |Yes  |"abcd1234"   |签名    |
 
     + 请求返回：  
         ```
