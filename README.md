@@ -19,13 +19,16 @@
       |\_sign     |String |Yes  |"abcd1234"   ||
 
     + 请求返回：  
-```
-{
-    "code":200,
-    "result":
-      {"address":"...ADDRESS..."}
-}
-```
+        ```
+        {
+          "code"   : 200,#int
+          "msg"    : "successed",#string
+          "result" :
+            {
+              "address":"...ADDRESS...",#string
+            },
+        }
+        ```
 
 2. ### 转账
 ----
