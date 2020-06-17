@@ -1,4 +1,4 @@
-服务
+服务 Server
 ====
 
 1.获取地址
@@ -38,7 +38,7 @@
 |amount     |String |Yes  |"100.0"|
 |_sign      |String |Yes  |"abcd1234"|
 
-回调
+\_回调 Callback
 ====
 **请求方法：**   POST  
 **路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
