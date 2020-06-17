@@ -3,8 +3,8 @@
 
 ### 1.获取地址
 
-> + **请求方法：**   POST  
-> + **路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
+* **请求方法：**   POST  
++ **路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
   
 > |参数名称|类型|必填|样例|描述|
 > |:---- |:---:|:--:| --:| --:|
@@ -17,7 +17,14 @@
 > |from       |String |Yes  |"...from..." |
 > |to         |String |Yes  |"...to..."   |
 > |amount     |String |Yes  |"100.0"      |
-> |\_sign     |String |Yes  |"abcd1234"|
+|\_sign     |String |Yes  |"abcd1234"|
+
+    {
+    "code":200,
+    "result":{
+        "address":"...ADDRESS..."
+        }
+    }
 
 2.转账
 ----
