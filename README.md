@@ -4,9 +4,8 @@
 1.获取地址
 ----
 **请求方法：**   POST  
-**参考路径：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
-**参数列表**  
-|名称|样例|
+**参考路径：**   "<WEBSIT/IP>:<PORT>/api/get_NewAddress/"  
+|参数名称|类型|必填|样例|描述|
 | :---: | :--: |
 |timestamp|"1234554321"|
 |user_id|"2020019428"|
@@ -24,25 +23,25 @@
 **请求方法：**   POST  
 **参考路径：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
 **参数列表**  
-|名称|样例|
-| :--- | --: |
-|timestamp|1234554321|
-|user_id|2020019428|
-|block|Bitcoin|
-|coin_id|'BTC'|
-|order_id|'abcd1234'|
-|type|'full'|
-|from|'....from....'|
-|to|'....to....'|
-|amount|'100.0'|
-|_sign|'abcd1234'|
+|参数名称|类型|必填|样例|描述|
+|:---- |:---:|:--:| --:| --:|
+|timestamp  |String |Yes  |1234554321|
+|user_id    |String |Yes  |2020019428|
+|block      |String |Yes  |Bitcoin|
+|coin_id    |String |Yes  |'BTC'|
+|order_id   |String |Yes  |'abcd1234'|
+|type       |String |Yes  |'full'|
+|from       |String |Yes  |'....from....'|
+|to         |String |Yes  |'....to....'|
+|amount     |String |Yes  |'100.0'|
+|_sign      |String |Yes  |'abcd1234'|
 
 回调
 ====
 **请求方法：**   POST  
 **参考路径：**   "<WEBSIT/IP>:<PORT>/api/notification/"  
 **参数列表**  
-|名称|样例|
+|参数名称|类型|必填|样例|描述|
 | :---: | :--: |
 |timestamp|1234554321|
 |user_id|2020019428|
