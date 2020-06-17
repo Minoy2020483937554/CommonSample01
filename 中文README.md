@@ -13,7 +13,7 @@ _0基础一二三步接入区\_块\_链主网_
       |user_id    |String |Yes  |"2020019428" |用户名  |
       |block      |String |Yes  |"Bitcoin"    |主链名  |
       |type       |String |Yes  |"full"       |类型    |
-      |\_sign     |String |Yes  |"abcd1234"   |签名    |
+      |\_sign     |String |Yes  |"mySign"     |签名    |
 
     + 请求返回：  
         ```javascript
@@ -43,7 +43,7 @@ _0基础一二三步接入区\_块\_链主网_
       |from       |String |Yes  |"...from..." |发送者  |
       |to         |String |Yes  |"...to..."   |接收者  |
       |amount     |String |Yes  |"100.0"      |数额    |
-      |\_sign     |String |Yes  |"abcd1234"   |签名    |
+      |\_sign     |String |Yes  |"mySign"     |签名    |
 
     + 请求返回：  
         ```javascript
@@ -74,7 +74,7 @@ _0基础一二三步接入区\_块\_链主网_
       |from       |String |No   |"...from..." |发送者 |
       |to         |String |Yes  |"...to..."   |接收者 |
       |amount     |String |Yes  |"100.0"      |数额   |
-      |\_sign     |String |Yes  |"abcd1234"   |签名   |
+      |\_sign     |String |Yes  |"mySign"     |签名   |
 
     + 请求返回：  
         ```javascript
