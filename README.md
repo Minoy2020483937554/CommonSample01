@@ -1,10 +1,10 @@
 \_\_\_\_服务 Server\_\_\_\_
 ====
 
-1.获取地址
-----
-**请求方法：**   POST  
-**路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
+### 1.获取地址
+
++**请求方法：**   POST  
++**路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
 |参数名称|类型|必填|样例|描述|
 |:---- |:---:|:--:| --:| --:|
 |timestamp  |String |Yes  |"1234554321"|
@@ -23,8 +23,8 @@
 
 2.转账
 ----
-**请求方法：**   POST  
-**路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
++**请求方法：**   POST  
++**路径参考：**   "<WEBSIT/IP>:<PORT>/api/transfer_Out/"  
 |参数名称|类型|必填|样例|描述|
 |:---- |:---:|:--:| --:| --:|
 |timestamp  |String |Yes  |"1234554321"|
