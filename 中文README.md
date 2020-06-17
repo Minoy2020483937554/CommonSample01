@@ -38,7 +38,7 @@ _0基础一二三步接入区\_块\_链主网_
       |user_id    |String |Yes  |"2020019428" |用户名  |
       |block      |String |Yes  |"Bitcoin"    |主链名  |
       |coin_id    |String |Yes  |"BTC"        |货币名  |
-      |order_id   |String |Yes  |"abcd1234"   |订单号  |
+      |order_id   |String |Yes  |"..orderid.."|订单号  |
       |type       |String |Yes  |"full"       |类型    |
       |from       |String |Yes  |"...from..." |发送者  |
       |to         |String |Yes  |"...to..."   |接收者  |
@@ -46,7 +46,7 @@ _0基础一二三步接入区\_块\_链主网_
       |\_sign     |String |Yes  |"abcd1234"   |签名    |
 
     + 请求返回：  
-        ```
+        ```javascript
         {
           "code" : 200, #int
           "msg"  : "successed", #string
@@ -69,7 +69,7 @@ _0基础一二三步接入区\_块\_链主网_
       |block      |String |Yes  |"Bitcoin"    |主链名 |
       |coin_id    |String |Yes  |"BTC"        |货币名 |
       |app_id     |String |Yes  |"Test_APP"   |应用名 |
-      |order_id   |String |Yes  |"abcd1234"   |订单号 |
+      |order_id   |String |Yes  |"..orderid.."|订单号 |
       |type       |String |Yes  |"full"       |类型   |
       |from       |String |No   |"...from..." |发送者 |
       |to         |String |Yes  |"...to..."   |接收者 |
@@ -77,7 +77,7 @@ _0基础一二三步接入区\_块\_链主网_
       |\_sign     |String |Yes  |"abcd1234"   |签名   |
 
     + 请求返回：  
-        ```
+        ```javascript
         {
           "code" : 200, #int
           "msg"  : "successed", #string
