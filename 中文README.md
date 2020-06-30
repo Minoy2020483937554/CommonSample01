@@ -8,7 +8,7 @@ _0基础一二三步接入区\_块\_链主网_
     + 路径参考：   "\<WEBSIT/IP\>:\<PORT\>/api/get_NewAddress/"  
     + 参数列表：  
       |名称       |描述     |类型     |必填 |样例         |取值范围                  |
-      |:----      | --     |:---:    |:--: |:--         |:--                       |
+      |:----      |:--:     |:---:   |:--: |:--         |:--                       |
       |timestamp  |时间戳   |String  |Yes  |"1234554321" |---                      |
       |user_id    |用户名   |String  |Yes  |"2020019428" |---                      |
       |block      |主链名   |String  |Yes  |"Bitcoin"    |"Bitcoin"<br>"Ethereum"  |
