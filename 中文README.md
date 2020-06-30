@@ -8,11 +8,11 @@ _0基础一二三步接入区\_块\_链主网_
     + 路径参考：   "\<WEBSIT/IP\>:\<PORT\>/api/get_NewAddress/"  
     + 参数列表：  
       |名称  |类型  |必填| 样例|描述|取值范围|
-      |:---- |:---:|:--:| --:| --| --:|
+      |:---- |:---:|:--:| --:| --|:-- |
       |timestamp  |String |Yes  |"1234554321" |时间戳  |-|
       |user_id    |String |Yes  |"2020019428" |用户名  |-|
-      |block      |String |Yes  |"Bitcoin"    |主链名  |["Bitcoin","Ethereum"]|
-      |type       |String |Yes  |"full"       |类型    |["full"]|
+      |block      |String |Yes  |"Bitcoin"    |主链名  |"Bitcoin"<br>"Ethereum"|
+      |type       |String |Yes  |"full"       |类型    |"full"|
       |\_sign     |String |Yes  |"mySign"     |签名    ||
 
     + 请求返回：  
