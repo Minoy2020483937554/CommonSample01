@@ -7,13 +7,13 @@ _0基础一二三步接入区\_块\_链主网_
     + 请求方法：   **POST**  
     + 路径参考：   "\<WEBSITE/IP\>:\<PORT\>/api/get_NewAddress/"  
     + 参数列表：  
-      |名称       |描述     |类型     |必填 |样例         |取值范围                  |
-      |:----      |:--:     |:---:   |:--: |:--         |:--                       |
-      |timestamp  |时间戳   |String  |Yes  |"1234554321" |---                      |
-      |user_id    |用户名   |String  |Yes  |"2020019428" |---                      |
+      |名称       |描述     |类型     |必填 |样例         |取值范围|
+      |:----      |:--:     |:---:   |:--: |:--         |:-- |
+      |timestamp  |时间戳   |String  |Yes  |"1234554321" |---|
+      |user_id    |用户名   |String  |Yes  |"2020019428" |---|
       |block      |主链名   |String  |Yes  |"Bitcoin"    |"Bitcoin"<br>"Ethereum"  |
-      |type       |类型     |String  |Yes  |"full"       |"full"                   |
-      |\_sign     |签名     |String  |Yes  |"mySign"     |---                      |
+      |type       |类型     |String  |Yes  |"full"       |"full"|
+      |\_sign     |签名     |String  |Yes  |"mySign"     |---|
 
     + 请求返回：  
         ```javascript
@@ -63,14 +63,14 @@ _0基础一二三步接入区\_块\_链主网_
     + 路径参考：   "\<WEBSITE/IP\>:\<PORT\>/api/notification/"  
     + 参数列表：  
       |名称       |描述   |类型   |必填  |样例         |取值范围|
-      |:----      |:--:  |:---:  |:--:  |:--         |:--|
+      |:----      |:--:  |:---:  |:--:  |:--         |:-- |
       |timestamp  |时间戳 |String |Yes  |"1234554321" |---|
       |status     |状态   |String |Yes  |"pending"    |"pending"<br>"confirmed"<br>"secured"<br>"cancelled"|
       |block      |主链名 |String |Yes  |"Bitcoin"    |"Bitcoin"<br>"Ethereum"|
       |coin_id    |货币名 |String |Yes  |"BTC"        |"BTC"<br>"ETHER"<br>"USDT"|
       |app_id     |应用名 |String |Yes  |"Test_APP"   |---|
       |order_id   |订单号 |String |Yes  |"..orderid.."|---|
-      |hash       |哈希值 |String |Yes  |"..TxHash.." |---|
+      |hash       |哈希值 |String |Yes  |"...hash..." |---|
       |type       |类型   |String |Yes  |"full"       |"full"|
       |from       |发送者 |String |No   |"...from..." |---|
       |to         |接收者 |String |Yes  |"...to..."   |---|
