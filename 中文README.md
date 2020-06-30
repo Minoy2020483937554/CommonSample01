@@ -71,7 +71,7 @@ _0基础一二三步接入区\_块\_链主网_
       |app_id     |应用名 |String |Yes  |"Test_APP"   |---|
       |order_id   |订单号 |String |Yes  |"..orderid.."|---|
       |hash       |哈希值 |String |Yes  |"...hash..." |---|
-      |type       |类型   |String |Yes  |"full"       |"full"|
+      |type       |类型   |String |Yes  |"Tx_In"      |"Tx_In"<br>"Tx_Out"|
       |from       |发送者 |String |No   |"...from..." |---|
       |to         |接收者 |String |Yes  |"...to..."   |---|
       |amount     |数额   |String |Yes  |"100.0"      |---|
