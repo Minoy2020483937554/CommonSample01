@@ -68,7 +68,7 @@ _0基础一二三步接入区\_块\_链主网_
       |status     |状态   |String |Yes  |"pending"    |"pending"<br>"confirmed"<br>"secured"<br>"cancelled"|
       |block      |主链名 |String |Yes  |"Bitcoin"    |"Bitcoin"<br>"Ethereum"|
       |coin_id    |货币名 |String |Yes  |"BTC"        |"BTC"<br>"ETHER"<br>"USDT"|
-      |app_id     |应用名 |String |Yes  |"Test_APP"   |---自定义---|
+      |app_id     |应用名 |String |Yes  |"Test_APP"   |-(自定义)-|
       |order_id   |订单号 |String |Yes  |"..orderid.."|---|
       |hash       |哈希值 |String |Yes  |"...hash..." |---|
       |type       |类型   |String |Yes  |"Tx_In"      |"Tx_In"<br>"Tx_Out"|
